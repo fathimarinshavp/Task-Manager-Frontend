@@ -1,6 +1,6 @@
 import Login from "./Component/Login";
 import Register from "./Component/Register";
-// import Nav from "./Component/Nav";
+
 import Dashboard from "./Component/Dashboard";
 import AddTask from "./Component/AddTask";
 import Update from "./Component/Update";
@@ -12,7 +12,7 @@ function App() {
     <>
         
       <BrowserRouter>
-     {/* <Nav/> */}
+    
           <Routes>
             <Route path="/" element={<Register />} />
             <Route path="/login" element={<Login />} /> 

@@ -75,3 +75,20 @@
   color: white;
   border-color: #71a070;
 }
+
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 16px;
+    height: 54px;
+  }
+
+  .nav-logo-name {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+}
